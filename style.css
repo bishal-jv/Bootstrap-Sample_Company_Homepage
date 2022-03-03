@@ -1,0 +1,113 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+/*Image with text bar*/
+header .bg-image{
+	background-image: url('image.png');
+	background-repeat:no-repeat;
+	background-size: cover;
+	height: 350px;
+}
+
+header .write{
+padding-top: 75px;
+color: #ffffff;/*white*/
+text-align: center;
+}
+
+header .headbutton {
+  background-color: #333333; /*blackish grey*/
+  border: 2px solid #454546; /*light grey*/
+  color: #ffffff;/*white*/
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+header .headbutton:hover {
+  background-color: #ddd;/*ash*/
+  color: #000000;/*black*/
+}
+
+/*h3 heading style*/
+.row h3{
+	text-align: center;
+	padding-top: 30px;
+}
+
+/*WAD container*/
+.container .top p{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+/*Information container*/
+.container-fluid .colr{
+	background-color:#333333;/*blackish grey*/
+}
+
+.container-fluid .d-flex div{
+	background-color:#ffffff;/*white*/
+}
+
+.container-fluid .d-flex h4{
+	text-align: center;
+	padding-top: 30px;
+}
+
+.container-fluid .d-flex p{
+	text-align: center;
+	padding-top: 20px;
+}
+
+/*Needs container*/
+.container-fluid .needs p{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+/*Contact&About container*/
+.container-fluid .contact .about h4{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	color: #ffffff;/*white*/
+}
+
+.container-fluid .contact{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	color: #ffffff;/*white*/
+	background-color:#2690d4;/*strong blue*/
+}
+
+.container-fluid .about{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	color: #ffffff;/*white*/
+	background-color:#333333;/*blackish grey*/
+}
+
+/*Footer conatainer*/
+.container-fluid .foot{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	color: #ffffff;/*white*/
+	background-color: #000000;/*black*/
+}
+
+.foot span{
+	color: #1a6da6;/*dark blue*/
+}
